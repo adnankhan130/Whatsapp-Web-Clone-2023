@@ -1,0 +1,104 @@
+.sidebar{
+    min-width: 300px;
+    width: 30%;
+    border-radius:1px solid lightgrey ;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #fafafa;
+}
+.sidebar-header{
+    height: 50px;
+    padding: 5px 0px 5px 10px;
+    background-color: #ededed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.sidebar-header-img{
+    width: 42px;
+}
+.sidebar-header-img >img{
+    width: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+.sidebar-header-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 150px;
+    color: #51585c;
+    cursor: pointer;
+}
+.sidebar-header-btn > .MuiSvgIcon-root{
+    font-size: 20px;
+}
+.sidebar-search{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f6f6;
+}
+
+.sidebar-search-input{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    font-size: 13px;
+   
+}
+.sidebar-search-input > .MuiSvgIcon-root{
+    font-size: 18px;
+    color: #acacac;
+    margin-left: 10px;
+}
+.sidebar-search-input > .input{
+    background-color:transparent;
+    border: none;
+    outline: none;
+    margin-left: 8px;
+    margin-bottom: 2px;
+    width: 100%; 
+}
+.sidebar-chat-list{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    overflow-y: scroll;
+    
+}
+.dropdown-container {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 1;
+    margin-top: 8px;
+    min-width: 120px;
+  }
+  
+  .dropdown-item {
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0f0f0;
+  }
